@@ -1,0 +1,25 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "config": {
+    "repository": "https://github.com/publdaze/test.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "npm --prefix ./gatsby-blog-templete install",
+    "start": "npm --prefix ./gatsby-blog-templete run start",
+    "deploy": "$(npm config set repository=$npm_package_config_repository --location=project) && npm --prefix ./gatsby-blog-templete run deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/publdaze/blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/publdaze/blog/issues"
+  },
+  "homepage": "https://github.com/publdaze/blog#readme"
+}
