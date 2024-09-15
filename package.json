@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "config": {
-    "repository": "https://github.com/publdaze/test.git"
+    "repository": "https://github.com/publdaze/blog.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
